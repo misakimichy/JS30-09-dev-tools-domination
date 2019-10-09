@@ -1,6 +1,6 @@
-const makeGreen = () => {
+const makeBlue = () => {
     const p = document.querySelector('#main');
-    p.style.color = "#efefef";
+    p.style.color = "#1fd2f4";
     p.style.fontSize = '50px';
 };
 
@@ -15,5 +15,4 @@ const makeGreen = () => {
             age: 8
         }
     ];
-    makeGreen();
 }());
