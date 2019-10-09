@@ -15,4 +15,19 @@ const makeBlue = () => {
             age: 8
         }
     ];
+
+    //Console tricks
+
+    // Regular
+    console.log("Regular console: Hello World!");
+
+    // Interpolated
+    console.log("Interpolated: String can be added %s to this string!", "🤓");
+
+    // styled
+    console.log("styled: %c I am a big string.", "font-size: 50px; text-shadow: 10px 10px  0 lightgray;");
+
+    // warning
+    console.warn("ooops! This is a warning!");
+
 }());
