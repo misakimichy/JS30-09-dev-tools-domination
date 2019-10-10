@@ -13,7 +13,7 @@ const makeBlue = () => {
     console.log("Interpolated: String can be added %s to this string!", "🤓");
     
     // 3. styled
-    console.log("styled: %c I am a big string.", "font-size: 50px; text-shadow: 10px 10px  0 lightgray;");
+    console.log("styled: %c This is a console demo.", "font-size: 50px; text-shadow: 10px 10px  0 lightgray;");
     
     // 4. warning
     console.warn("Aiya, we got a warning!");
